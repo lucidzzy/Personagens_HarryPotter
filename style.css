@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #4b2e83;
+    font-size: 50px;
+    margin: 0;
+}
+
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+.character img {
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#filterInput {
+    height: 25px;
+    margin: 20px;
+}
+
+#characterDetails {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4b2e83;
+    border-radius: 12px;
+    width: 400px;
+}
